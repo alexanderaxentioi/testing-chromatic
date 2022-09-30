@@ -12,7 +12,8 @@
     "generate": "npx plop -- --plopfile generators/plopfile.js",
     "storybook": "start-storybook --no-manager-cache -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "chromatic": "npx chromatic --project-token=2ea6308b8087"
   },
   "lint-staged": {
     "src/**/*": [
@@ -56,5 +57,7 @@
     "prettier": "^2.2.1",
     "storybook-addon-next-router": "^3.0.8",
     "typescript": "^4.1.5"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "nextjs-pro-boilerplate@1.0.0"
 }
